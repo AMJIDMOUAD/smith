@@ -41,9 +41,3 @@ function Tab({ href, title, desc, highlight = false }: { href: string; title: st
     </Link>
   )
 }
-
-export const metadata = {
-  title: "Smith Agency AI",
-  description: "5M autonomous Smith Agents powering the Exoverse—governed, mirrored, and notarized.",
-  openGraph: { images: ["/bg-continuum.jpg"] },
-}
